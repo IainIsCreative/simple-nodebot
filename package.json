@@ -2,6 +2,7 @@
   "name": "basic-nodebot",
   "version": "1.0.0",
   "main": "lib/index.js",
+  "author": "Iain [@IainIsCreative]",
   "license": "MIT",
   "scripts": {
     "start": "nodemon -e js --ignore index.compiled.js --ignore dist --exec babel-node index.js",
