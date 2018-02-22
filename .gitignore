@@ -1,0 +1,8 @@
+.DS_Store
+node_modules/
+
+# ignore dist directory
+dist/
+
+# ignore compiled index file
+index.compiled.js

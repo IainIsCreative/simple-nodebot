@@ -1,0 +1,36 @@
+{
+  "name": "basic-nodebot",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "author": "Iain [@IainIsCreative]",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon -e js --ignore index.compiled.js --ignore dist --exec babel-node index.js",
+    "dev": "webpack -w",
+    "build": "rimraf lib dist && babel index.js --out-file index.compiled.js --ignore browser.js && webpack browser.js",
+    "test": "eslint ./ && flow",
+    "production": "node index.compiled.js"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "express": "^4.16.2",
+    "johnny-five": "^0.13.0",
+    "socket.io": "^2.0.4",
+    "socket.io-client": "^2.0.4"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^8.2.1",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-flow": "^6.23.0",
+    "eslint": "^4.9.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-flowtype": "^2.42.0",
+    "eslint-plugin-import": "^2.7.0",
+    "flow-bin": "^0.64.0",
+    "nodemon": "^1.14.12",
+    "rimraf": "^2.6.2",
+    "webpack": "^3.11.0"
+  }
+}
