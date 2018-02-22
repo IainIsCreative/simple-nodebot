@@ -1,0 +1,2 @@
+# Simple Nodebot with JavaScript
+
