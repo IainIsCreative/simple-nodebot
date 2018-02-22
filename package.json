@@ -7,7 +7,7 @@
   "scripts": {
     "start": "nodemon -e js --ignore index.compiled.js --ignore dist --exec babel-node index.js",
     "dev": "webpack -w",
-    "build": "rimraf lib dist && babel index.js --out-file index.compiled.js --ignore browser.js && webpack browser.js",
+    "build": "rimraf dist ./index.compiled.js && babel index.js --out-file index.compiled.js --ignore browser.js && webpack browser.js",
     "test": "eslint ./ && flow",
     "production": "node index.compiled.js"
   },
