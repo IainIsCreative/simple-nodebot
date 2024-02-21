@@ -32,4 +32,4 @@ Feel free to open an issue! Hopefully you won't have any problems, but be sure t
 
 ## Support The Author!
 
-Do you enjoy the JavaScript with Hardware series? Feel free to [support me and get perks through my Patreon](https://www.patreon.com/IainIsCreative)! Alternatively, you can [follow me on Twitter](https://twitter.com/IainIsCreative) and [subscribe to my mailing list](http://iain.is/) to get updates!
+Do you enjoy the JavaScript with Hardware series? Feel free to [support me by following me on Twitter](https://twitter.com/IainIsCreative) and [subscribe to my mailing list](http://iain.is/) to get updates!
